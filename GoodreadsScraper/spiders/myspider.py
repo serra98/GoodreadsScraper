@@ -2,7 +2,7 @@ import scrapy
 
 class MySpider(scrapy.Spider):
     name = 'myspider'
-    start_urls = ['https://www.goodreads.com/review/list/11083989-s?shelf=%23ALL%23']
+    start_urls = ['https://www.goodreads.com/book/show/11296523-the-kite-runner']
 
 
     def parse(self, response):
